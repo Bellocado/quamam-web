@@ -1,0 +1,26 @@
+# Quamam (by Ekipa OpenŠola)
+
+> An open-source (FOSS), independent Android client for Slovenian school information systems, built for speed and privacy.
+
+## Overview
+- **Official Website:** https://quamam.org
+- **Source Code:** https://codeberg.org/OpenSola/Quamam
+- **Developer:** Ekipa OpenŠola
+- **License:** GNU GPL v3
+- **Primary Language:** Slovenian (sl)
+
+## Tech Stack & Architecture
+- **Platform:** Android
+- **Language & Framework:** Kotlin + Jetpack Compose
+- **UI Design:** Material 3 Expressive UI guidelines
+- **Privacy:** 100% client-side local data storage with zero external tracking servers.
+
+## Core Features
+- **Grades & Timetables:** Quick overview of student grades, automated grade average calculations, and timetable tracking.
+- **School Meals:** Built-in integration for viewing and ordering school lunches (compatible with regional providers like Kroky).
+- **Communication:** Localized access to school messaging platforms and student groups.
+
+## Project Status & Legal
+- **Status:** Active development (closed testing phase).
+- **Public Launch:** Scheduled for September 1, 2026.
+- **Legal Disclaimer:** Quamam is an independent third-party client. It is not affiliated, sponsored, or endorsed by eŠola d.o.o. (eAsistent) or K-Norma d.o.o. (Kroky). All user data is processed locally at the user's own responsibility.

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Osnove -->
+  <title>Quamam | Neuradni odjemalec za šolske informacijske sisteme</title>
+  <meta name="description" content="Sodoben, hiter in odprtokoden (FOSS) odjemalec za šolske informacijske sisteme. Preverite urnik, ocene in prehrano brez odvečne navlake.">
+  <link rel="canonical" href="https://quamam.org">
+
+  <!-- Open Graph / Social Media (Izboljša deljenje povezav) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://quamam.org">
+  <meta property="og:title" content="Quamam | Odprtokodni šolski odjemalec">
+  <meta property="og:description" content="Sodoben, hiter in odprtokoden odjemalec za šolske informacijske sisteme.">
+  <meta property="og:image" content="https://quamam.org/brand.svg"> <!-- Ustvarite to sliko, če je še niste -->
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Strukturirani podatki (Schema.org) za 100 % Agentic Browsing Score -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Quamam",
+    "operatingSystem": "Android",
+    "applicationCategory": "EducationalApplication",
+    "description": "Sodoben, hiter in odprtokoden (FOSS) odjemalec za šolske informacijske sisteme, namenjen vrhunski uporabniški izkušnji.",
+    "url": "https://quamam.org",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Ekipa OpenŠola",
+      "url": "https://opensola.org"
+    },
+    "downloadUrl": "https://quamam.org",
+    "softwareVersion": "V razvoju"
+  }
+  </script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand-row">
+        <div class="brand">
+          <img src="assets/brand.svg" alt="Quamam logotip" class="brand-mark">
+          <span class="badge">Ekipa OpenŠola</span>
+        </div>
+        <nav class="top-nav" aria-label="Glavna navigacija">
+          <div class="nav-links">
+            <a class="text-link" href="#features">Funkcije</a>
+            <a class="text-link" href="#about">O projektu</a>
+            <a class="text-link" href="#faq">Pogosta vprašanja</a>
+            <a class="text-link" href="https://codeberg.org/OpenSola/Quamam" title="Povezava do izvorne kode">Izvorna koda</a>
+          </div>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Preklopi med svetlo in temno temo" aria-pressed="false">
+            <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+            <span class="theme-toggle__label">Temni način</span>
+          </button>
+        </nav>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <h1>Quamam</h1>
+          <p><em>"Kva mam naslednjo uro?"</em></p>
+          <p>Sodoben, hiter in odprtokoden (FOSS) odjemalec za šolske informacijske sisteme, zgrajen za vrhunsko uporabniško izkušnjo z uporabo najnovejših Android smernic.</p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="apply.html">Prijavi se za testiranje</a>
+            <a class="secondary-btn" href="#about">Več o projektu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero-card">
+      <div class="countdown-box">
+        <p class="eyebrow">Javna izdaja</p>
+        <h2>1. september 2026</h2>
+        <div id="countdown" class="countdown">
+          <div class="time-block"><span id="days">00</span><small>Dni</small></div>
+          <div class="time-block"><span id="hours">00</span><small>Ur</small></div>
+          <div class="time-block"><span id="minutes">00</span><small>Minut</small></div>
+          <div class="time-block"><span id="seconds">00</span><small>Sekund</small></div>
+        </div>
+      </div>
+    </section>
+	<!--
+      <section class="section-card" id="download">
+      <div class="section-header">
+        <p class="eyebrow">Prenos</p>
+        <h2>Začnite z namestitvijo</h2>
+      </div>
+      <div class="download-panel">
+        <p>Pritisni na gumb za začetek prenosa!</p>
+        <a class="primary-btn" href="test.apk" download title="Prenos aplikacije" aria-label="Prenesi aplikacijo">Prenesi aplikacijo</a>
+        <p class="eyebrow">S prenosom aplikacije se strinjate s <a class="eyebrow" href="pogoji.html">pogoji uporabe</a>.</p>
+      </div>
+    </section>
+	-->
+    <section class="section-card" id="features">
+      <div class="section-header">
+        <p class="eyebrow">Značilnosti</p>
+        <h2>Vse, kar potrebuješ za šolo</h2>
+      </div>
+
+      <div class="about-grid">
+        <article>
+          <h3>Material 3 Expressive</h3>
+          <p>Sodoben in vizualno dovršen uporabniški vmesnik v skladu z najnovejšimi Material Design 3 smernicami za Android.</p>
+        </article>
+        <article>
+          <h3>Pregled ocen in urnikov</h3>
+          <p>Hitri dostop do pregleda ocen, izračuna povprečij, urnikov, dogodkov ter izostankov.</p>
+        </article>
+        <article>
+          <h3>Šolska prehrana</h3>
+          <p>Enostavno naročanje in pregled šolske prehrane z integracijo vgrajenih ponudnikov in ponudnikov po meri.</p>
+        </article>
+      </div>
+
+      <div class="features-status" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--card-border);">
+        <p><strong>Nabor funkcij:</strong></p>
+        <ul style="color: var(--text-secondary); margin-top: 0.5rem;">
+          <li>Pregled ocen in izračun povprečij</li>
+          <li>Urniki, obvestila z naprednim filtriranjem in izostanki</li>
+          <li>Naročanje in pregled šolske prehrane</li>
+          <li>Sporočila in skupine</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-card" id="about">
+      <div class="section-header">
+        <p class="eyebrow">O projektu / vizija</p>
+        <h2>Ustvarjeno z mislijo na enostavnost in zasebnost</h2>
+      </div>
+
+      <div class="about-grid">
+        <article>
+          <h3>Vizija</h3>
+          <p>Quamam je samostojno razvit odjemalec (third-party client). Projekt je nastal iz radovednosti, želje po učenju in težnje k izboljšanju digitalne izkušnje v izobraževalnem prostoru.</p>
+        </article>
+        <article>
+          <h3>Tehnologija & Zasebnost</h3>
+          <p>Aplikacija je napisana v jeziku <strong>Kotlin</strong> z uporabo <strong>Jetpack Compose</strong>. Vsi podatki se obdelujejo izključno lokalno na napravi in se ne posredujejo zunanjim strežnikom.</p>
+        </article>
+        <article>
+          <h3>Licenca in FOSS</h3>
+          <p>Projekt je v celoti odprtokoden (FOSS) pod licenco GNU GPL v3. Začetek bo v zaprtem testiranju, s kasnejšo javno izdajo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-card" id="faq">
+      <div class="section-header">
+        <p class="eyebrow">Pogosta vprašanja</p>
+        <h2>Odgovori na najpogostejša vprašanja</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item is-open">
+          <button class="faq-question" type="button" aria-expanded="true">Ali je aplikacija varna za uporabo?</button>
+          <div class="faq-answer">
+            <p>Da. Deluje kot lokalni vmesnik med vašo napravo in uradnimi strežniki. Vaši prijavni podatki potujejo šifrirano neposredno do uradnih storitev in se ne shranjujejo nikjer drugje.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">Ali aplikacija omogoča brezplačen dostop do plačljivih funkcij uradne aplikacije?</button>
+          <div class="faq-answer">
+            <p>Ne. Aplikacija strogo spoštuje naročniške pakete uradnih ponudnikov in prikazuje le tiste funkcije, do katerih imate uradno odobren dostop.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">Kdo stoji za projektom?</button>
+          <div class="faq-answer">
+            <p>Za projektom stoji ekipa OpenŠola, neodvisna skupina razvijalcev in entuziastov.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-panel" id="apply">
+      <h3>Prijava za testiranje</h3>
+      <p>Če si želiš sodelovati kot tester, lahko zaprosiš za dostop do zaprte izdaje in sodeluješ pri razvoju aplikacije.</p>
+      <a class="primary-btn" href="apply.html">Pošlji prošnjo</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="disclaimer">
+        <h3>Pravno obvestilo in omejitev odgovornosti</h3>
+        <p><strong>Neuradna aplikacija (Third-Party Client):</strong> Aplikacija Quamam je neodvisen projekt in ni uradna aplikacija, niti ni neposredno povezana, sponzorirana ali odobrena s strani podjetij eŠola d.o.o. (lastnik storitve eAsistent) ali K-Norma d.o.o. (lastnik storitve Kroky).</p>
+        <p><strong>Blagovne znamke:</strong> Vsa imena, logotipi, storitvene znamke in registrirane blagovne znamke (vključno z eAsistent in Kroky) so last njihovih posameznih lastnikov.</p>
+        <p><strong>Varnost podatkov:</strong> Razvijalci ne zbirajo, ne shranjujejo in ne preprodajajo uporabniških prijavnih podatkov ali osebnih podatkov. Uporaba aplikacije na lastno odgovornost.</p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <a href="pogoji.html">Pogoji uporabe</a>
+      <p>&copy; 2026 Ekipa OpenŠola.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" type="button" aria-label="Pojdi na vrh strani" tabindex="-1"></button>
+  <div class="theme-overlay" id="theme-overlay" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

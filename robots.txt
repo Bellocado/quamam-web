@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Explicitly ensure AI bots know they are welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Link to your sitemap to speed up indexing
+Sitemap: https://quamam.org
